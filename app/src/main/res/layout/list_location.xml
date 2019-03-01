@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/list_Loc"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:padding="5dp"
+        android:text="Location"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/list_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:layout_below="@id/list_Loc"
+        android:text="长沙"
+        android:textSize="15sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="0dp"
+        android:layout_below="@id/list_loc"
+        android:background="@color/Gray"/>
+</RelativeLayout>

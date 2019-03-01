@@ -1,0 +1,15 @@
+<resources>
+    <style name="myAppTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/myActionBar</item> <!--设置ActionBarStyle-->
+    </style>
+    <style name="myActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/Blue</item>
+        <item name="android:backgroundStacked">@color/BlueDark</item>
+        <item name="android:titleTextStyle">@style/actionBarTitle</item> <!--设置titleTextStyle-->
+    </style>
+    <style name="actionBarTitle">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>
